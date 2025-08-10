@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.grad {
+	background: #86aeb8;
+background: linear-gradient(90deg,rgba(134, 174, 184, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 95%);
+}
+ /* Page background */
+    body {
+        background: #f8f9fa;
+    }
+    /* Gradient background for note cards */
+    .note-card {
+        color: white;
+        border-radius: 10px;
+        transition: transform 0.2s;
+    }
+    .note-card:hover {
+        transform: scale(1.02);
+    }
